@@ -1,3 +1,45 @@
+---
+audience:
+  experienceLevel: intermediate
+  primaryRole: Documentation Specialist
+document:
+  summary: Defines a neutral blueprint and rules for generating YAML frontmatter and
+    Schema.org JSON-LD for technical documentation.
+  title: Metadata playbook
+  topics:
+  - YAML
+  - frontmatter
+  - Schema.org
+  - JSON-LD
+  - metadata
+  type: Guideline
+metadata:
+  keywords:
+  - YAML
+  - frontmatter
+  - Schema.org
+  - JSON-LD
+  - metadata
+schema:
+  '@context': https://schema.org
+  '@type': TechArticle
+  audience:
+    '@type': Audience
+    audienceType: Documentation Specialist
+  description: Defines a neutral blueprint and rules for generating YAML frontmatter
+    and Schema.org JSON-LD for technical documentation.
+  inLanguage: it
+  keywords:
+  - YAML
+  - frontmatter
+  - Schema.org
+  - JSON-LD
+  - metadata
+  learningResourceType: Guideline
+  name: Metadata playbook
+  proficiencyLevel: intermediate
+---
+
 # Metadata playbook
 
 This knowledge base defines a neutral blueprint for generating YAML frontmatter and Schema.org JSON-LD.
