@@ -1,3 +1,42 @@
+---
+audience:
+  experienceLevel: intermediate
+  primaryRole: Developer
+document:
+  summary: A guide on adapting the AI Frontmatter Injector by customizing its knowledge
+    base, master prompt, and schema definitions to match a specific metadata model.
+  title: Customizing the Knowledge Base and Master Prompt
+  topics:
+  - Knowledge Base
+  - Prompt Engineering
+  - Configuration
+  - Schema.org
+  type: How-To
+metadata:
+  keywords:
+  - Metadata
+  - AI
+  - YAML
+  - ChromaDB
+schema:
+  '@context': https://schema.org
+  '@type': TechArticle
+  audience:
+    '@type': Audience
+    audienceType: Developer
+  description: A guide on adapting the AI Frontmatter Injector by customizing its
+    knowledge base, master prompt, and schema definitions to match a specific metadata
+    model.
+  inLanguage: en
+  keywords:
+  - Metadata
+  - AI
+  - YAML
+  - ChromaDB
+  learningResourceType: How-To
+  name: Customizing the Knowledge Base and Master Prompt
+---
+
 # Customizing the Knowledge Base and Master Prompt
 
 This manual explains how to adapt the AI Frontmatter Injector to your own metadata model. It covers how the runtime assembles the knowledge base, how to extend or replace the master prompt, and how to validate your changes end to end.
