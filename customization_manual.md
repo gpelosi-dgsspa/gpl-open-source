@@ -2,6 +2,10 @@
 audience:
   experienceLevel: intermediate
   primaryRole: Developer
+descrizione: Illustra il processo tecnico-contabile con cui un Ente Creditore verifica
+  la corrispondenza tra le posizioni debitorie pagate dagli utenti e gli importi accreditati
+  tramite la Piattaforma Notifiche e il sistema pagoPA.
+diataxis_type: explanation
 document:
   summary: A manual for adapting the AI Frontmatter Injector by modifying its knowledge
     base, master prompt, and validation workflows to match a custom metadata model.
@@ -12,12 +16,57 @@ document:
   - Prompt Engineering
   - Schema.org
   type: How-To
+funzione: Spiegazione del processo di riconciliazione dei pagamenti
+json-ld:
+  '@context': https://schema.org
+  '@type': TechArticle
+  about:
+    '@type': SoftwareApplication
+    applicationCategory: DigitalPublicAdministration
+    name: Piattaforma Notifiche
+    operatingSystem: Platform Independent
+    softwareVersion: v3.0
+  audience:
+    '@type': Audience
+    audienceType:
+    - Sviluppatori
+    - Integratori Tecnici
+    - Personale Amministrativo Enti Creditori
+  author:
+    '@type': Organization
+    name: PagoPA S.p.A.
+    url: https://www.pagopa.it
+  dateModified: '2024-05-21'
+  datePublished: '2023-11-20'
+  description: Documentazione tecnica che descrive il processo di riconciliazione
+    contabile per gli Enti Creditori che utilizzano la Piattaforma Notifiche, assicurando
+    la corrispondenza tra pagato e accreditato.
+  headline: Guida alla Riconciliazione dei flussi di pagamento su Piattaforma Notifiche
+  isPartOf:
+    '@type': WebSite
+    name: Documentazione Tecnica Piattaforma Notifiche
+    url: https://docs.pagopa.it/p/piattaforma-notifiche
+  keywords: riconciliazione, rendicontazione, contabilità, Ente Creditore, PSP, Nodo
+    dei Pagamenti-SPC, IUV
+  learningResourceType: documentation
+  proficiencyLevel: Intermediate
+  publisher:
+    '@type': Organization
+    logo:
+      '@type': ImageObject
+      url: https://docs.pagopa.it/assets/images/logo-pagopa-spa.svg
+    name: PagoPA S.p.A.
+last_update:
+  author: Team Tecnico PagoPA
+  date: '2024-05-21'
 metadata:
   keywords:
   - configuration
   - metadata
   - YAML
   - ChromaDB
+prodotto: Piattaforma Notifiche
+publish_date: '2023-11-20'
 schema:
   '@context': https://schema.org
   '@type': TechArticle
@@ -35,6 +84,16 @@ schema:
   - ChromaDB
   learningResourceType: How-To
   name: Customizing the Knowledge Base and Master Prompt
+search_keywords:
+- riconciliazione
+- rendicontazione
+- flusso di pagamento
+- Ente Creditore
+- PSP
+- Nodo dei Pagamenti-SPC
+- IUV
+titolo: Riconciliazione dei flussi di pagamento
+versione: v3.0
 ---
 
 # Customizing the Knowledge Base and Master Prompt
