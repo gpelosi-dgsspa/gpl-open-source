@@ -1,3 +1,64 @@
+---
+funzione:
+  autori:
+  - Redazione Tecnica
+  data_modifica: '2023-11-20'
+  descrizione: Guida alla gestione dei metodi di pagamento su pagoPA. Scopri come
+    visualizzare, aggiungere, modificare ed eliminare i tuoi metodi di pagamento.
+  difficoltà: Principiante
+  metadati_strutturati: "{\n  \"@context\": \"https://schema.org\",\n  \"@type\":
+    \"HowTo\",\n  \"name\": \"Come gestire i metodi di pagamento su pagoPA\",\n  \"description\":
+    \"Guida passo-passo per aggiungere, modificare ed eliminare i metodi di pagamento
+    all'interno della piattaforma pagoPA.\",\n  \"inLanguage\": \"it-IT\",\n  \"mainEntityOfPage\":
+    {\n    \"@type\": \"WebPage\",\n    \"@id\": \"https://docs.pagopa.it/io/guides/gestione-metodi-pagamento\"\n
+    \ },\n  \"provider\": {\n    \"@type\": \"Organization\",\n    \"name\": \"PagoPA
+    S.p.A.\",\n    \"logo\": {\n      \"@type\": \"ImageObject\",\n      \"url\":
+    \"https://www.pagopa.it/static/logo-pagopa-spa.svg\"\n    }\n  },\n  \"totalTime\":
+    \"PT5M\",\n  \"tool\": [\n    {\n      \"@type\": \"SoftwareApplication\",\n      \"name\":
+    \"IO\",\n      \"applicationCategory\": \"FinanceApplication\"\n    }\n  ],\n
+    \ \"yield\": {\n    \"@type\": \"Thing\",\n    \"name\": \"Un elenco aggiornato
+    dei propri metodi di pagamento\"\n  },\n  \"step\": [\n    {\n      \"@type\":
+    \"HowToSection\",\n      \"name\": \"Come aggiungere un nuovo metodo di pagamento\",\n
+    \     \"itemListElement\": [\n        {\n          \"@type\": \"HowToStep\",\n
+    \         \"name\": \"Avvia l'aggiunta\",\n          \"text\": \"Selezionare il
+    pulsante 'Aggiungi un nuovo metodo' per iniziare la procedura.\"\n        },\n
+    \       {\n          \"@type\": \"HowToStep\",\n          \"name\": \"Scegli il
+    metodo\",\n          \"text\": \"Scegliere il metodo di pagamento desiderato (es.
+    carta di credito) dalla lista.\"\n        },\n        {\n          \"@type\":
+    \"HowToStep\",\n          \"name\": \"Inserisci i dati\",\n          \"text\":
+    \"Compilare i campi richiesti con i dati del metodo di pagamento scelto.\"\n        },\n
+    \       {\n          \"@type\": \"HowToStep\",\n          \"name\": \"Salva il
+    metodo\",\n          \"text\": \"Confermare e salvare il nuovo metodo di pagamento.\"\n
+    \       }\n      ]\n    },\n    {\n      \"@type\": \"HowToSection\",\n      \"name\":
+    \"Come modificare o eliminare un metodo di pagamento\",\n      \"itemListElement\":
+    [\n        {\n          \"@type\": \"HowToStep\",\n          \"name\": \"Modifica
+    un metodo\",\n          \"text\": \"Per modificare un metodo, selezionare l'icona
+    a forma di matita, aggiornare i dati e salvare.\",\n          \"substeps\": [\n
+    \           \"Individuare il metodo da modificare e selezionare l'icona a forma
+    di matita.\",\n            \"Modificare i dati necessari (es. data di scadenza
+    della carta).\",\n            \"Salvare le modifiche per aggiornare il metodo
+    di pagamento.\"\n          ]\n        },\n        {\n          \"@type\": \"HowToStep\",\n
+    \         \"name\": \"Elimina un metodo\",\n          \"text\": \"Per eliminare
+    un metodo, selezionare l'icona a forma di cestino e confermare la scelta.\",\n
+    \         \"substeps\": [\n            \"Individuare il metodo da rimuovere e
+    selezionare l'icona a forma di cestino.\",\n            \"Confermare la volontà
+    di eliminare definitivamente il metodo di pagamento.\"\n          ]\n        }\n
+    \     ]\n    }\n  ]\n}"
+  parole_chiave:
+  - pagamento
+  - metodi di pagamento
+  - pagoPA
+  - aggiungere carta
+  - modificare metodo
+  - eliminare carta
+  - gestione pagamenti
+  prodotto: IO
+  tempo_lettura_stimato: 5 minuti
+  tipo_documentazione: How-to guide
+  titolo: Riepilogo dei metodi di pagamento
+  versione_prodotto: v2.25.0
+---
+
 # Customizing the Knowledge Base and Master Prompt
 
 This manual explains how to adapt the AI Frontmatter Injector to your own metadata model. It covers how the runtime assembles the knowledge base, how to extend or replace the master prompt, and how to validate your changes end to end.
